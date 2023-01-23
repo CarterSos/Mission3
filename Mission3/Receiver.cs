@@ -8,5 +8,17 @@ namespace Mission3
 {
     class Receiver
     {
+        void printBoard(string[] gameBoard)
+        {
+            for(int i = 0; i < 9; i++)
+            {
+
+            }
+        }
+
+        void chooseWinner(string[] gameBoard)
+        {
+
+        }
     }
 }
