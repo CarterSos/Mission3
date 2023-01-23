@@ -10,9 +10,23 @@ namespace Mission3
     {
         void printBoard(string[] gameBoard)
         {
-            for(int i = 0; i < 9; i++)
+            int arrayIndex = 0;
+            for (int i = 0; i < 3; i++)
             {
-
+                for(int j = 0; j < 3; j++)
+                {
+                    Console.Write("_" + gameBoard[arrayIndex] + "_");
+                    arrayIndex++;
+                    if (j != 2)
+                    {
+                        Console.Write("|");
+                    }
+                }
+                Console.WriteLine("\n");
+                if (i != 2)
+                {
+                    Console.Write("--------------------");
+                }
             }
         }
 
